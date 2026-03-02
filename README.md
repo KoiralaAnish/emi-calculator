@@ -46,7 +46,7 @@ The following areas are covered in automation:
 ## Project Structure
 
 
-<pre> ## Project Structure ``` EMI-Automation/ │ ├── tests/ │ └── emiCalculator.spec.js │ ├── pages/ │ └── EmiCalculator.page.js │ ├── test-plan/ │ └── Test_Plan_Document.md │ ├── test-cases/ │ └── TestCases.md │ ├── test-summary-report/ │ └── Test_Summary_Report.md │ └── README.md ``` </pre>
+<pre> ## Project Structure ``` emi-calculator/ │ ├── tests/ │ └── emi-calculator.spec.js │ ├── pages/ │ └── EmiCalculator.page.js │ ├── test-plan/ │ └── Test_Plan_Document.md │ ├── test-cases/ │ └── TestCases.md │ ├── test-summary-report/ │ └── Test_Summary_Report.md │ └── README.md ``` </pre>
 
 
 ---
