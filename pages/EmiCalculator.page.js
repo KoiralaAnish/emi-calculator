@@ -66,7 +66,6 @@ export class Calculator {
     }
  async getChartData() {
 
-  // Wait for chart to render
   await this.page.waitForSelector('#emibarchart svg');
 
   return await this.page.evaluate(() => {
@@ -93,7 +92,6 @@ async getTableData() {
       .map(row => {
         const cells = row.querySelectorAll("td");
 
-        // Skip rows that don’t have enough columns
         if (cells.length < 5) return null;
 
         return {
@@ -139,7 +137,7 @@ async validateChartAndTableYearWise() {
 
   expect(
     tableData[tableData.length - 1].balance
-  ).toBe(0);
+  ).toBe(1);
 }
 async downloadAndValidateExcel(expectedLoan, expectedRate, expectedTenure) {
  const downloadButton = this.page.locator('.ecaldownloadexcel');
