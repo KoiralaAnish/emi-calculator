@@ -137,7 +137,7 @@ async validateChartAndTableYearWise() {
 
   expect(
     tableData[tableData.length - 1].balance
-  ).toBe(1);
+  ).toBe(0);
 }
 async downloadAndValidateExcel(expectedLoan, expectedRate, expectedTenure) {
  const downloadButton = this.page.locator('.ecaldownloadexcel');
