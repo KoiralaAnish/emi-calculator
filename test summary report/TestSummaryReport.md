@@ -29,11 +29,11 @@ The following areas were covered:
 
 ---
 
-## 3. Test Execution Summary  
+## 3. Test Automation Execution Summary  
 
-- Total Test Cases Designed: 25  
-- Total Test Cases Executed: 25  
-- Passed: 25  
+- Total Test Cases Designed: 3  
+- Total Test Cases Executed: 3  
+- Passed: 3  
 - Failed: 0  
 - Blocked: 0  
 

@@ -6,9 +6,9 @@ test.describe('EMI Calculator Test', () => {
 	test.beforeEach("should update home loan amount, interest rate and loan tenure using slider", async ({ page }) => {
   const CalculatorPage = new Calculator(page);
   await CalculatorPage.visitURL();
-  await CalculatorPage.moveSlider(0, 50); //For Home Loan Amount
-  await CalculatorPage.moveSlider(1, 50); //For Interest Rate
-  await CalculatorPage.moveSlider(2, 50); //For Loan Tenure
+  await CalculatorPage.moveSlider(0, 50); //Home Loan Amount
+  await CalculatorPage.moveSlider(1, 50); //Interest Rate
+  await CalculatorPage.moveSlider(2, 50); //Loan Tenure
  }); 
  test ('should validate EMI using formula-based recalculation', async ({ page }) => {
   const CalculatorPage = new Calculator(page);

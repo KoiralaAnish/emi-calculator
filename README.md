@@ -170,7 +170,7 @@ npm install
 ### Step 2: Run Tests
 
 
-npm run open:test:runner for headed mode
+npm run open:test:runner for headed mode &
 npm run run:test:runner  for headless mode
 
 

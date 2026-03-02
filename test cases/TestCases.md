@@ -1,4 +1,4 @@
-# Test Cases – EMI Calculator (Tabular Format)
+# Test Cases – EMI Calculator
 
 ## 1. Functional Testing
 
